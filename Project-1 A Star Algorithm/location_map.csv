@@ -1,0 +1,13 @@
+,Location_A,Location_B,Path Cost(KM)
+0,Organ Lily,Shewrapara,1.1657375229274665
+1,Organ Lily,Kamal Sarani,1.3529079354871336
+2,Shewrapara,Agargaon,1.2841500686079175
+3,Agargaon,Chandrima Uddan,1.50979314681242
+4,Chandrima Uddan,Khamar Bari,0.7054088572099919
+5,Chandrima Uddan,Bijoy Sarani,0.5930516249772503
+6,Khamar Bari,Farmgate,0.6518919580040842
+7,Bijoy Sarani,Farmgate,0.7542073013508552
+8,Farmgate,University of Asia Pacific,0.3250216409379184
+9,Kamal Sarani,National Museum,0.7847256846643799
+10,National Museum,Sher-e-Bangla Road,0.8065672061887167
+11,Sher-e-Bangla Road,Chandrima Uddan,1.4302531679306827

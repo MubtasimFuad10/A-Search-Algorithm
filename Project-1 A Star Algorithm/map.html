@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6795b0425bb1890e0e6146a5cabcce43 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6795b0425bb1890e0e6146a5cabcce43" ></div>
+        
+</body>
+<script>    
+    
+            var map_6795b0425bb1890e0e6146a5cabcce43 = L.map(
+                "map_6795b0425bb1890e0e6146a5cabcce43",
+                {
+                    center: [23.745268183480682, 90.36089271175031],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b37a732be84be6a538ba84b1378e9073 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+            var marker_997286270b66bef6e6878e27102f75cb = L.marker(
+                [23.79854733, 90.37023781],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+            var icon_35a039c66bf714a376ecd87214f5c15a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_997286270b66bef6e6878e27102f75cb.setIcon(icon_35a039c66bf714a376ecd87214f5c15a);
+        
+    
+        var popup_1b6f68459385e861a280aec1925d4a7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_297231c616dd3af8853ebdec7a28f33d = $(`<div id="html_297231c616dd3af8853ebdec7a28f33d" style="width: 100.0%; height: 100.0%;">Organ Lily</div>`)[0];
+                popup_1b6f68459385e861a280aec1925d4a7c.setContent(html_297231c616dd3af8853ebdec7a28f33d);
+            
+        
+
+        marker_997286270b66bef6e6878e27102f75cb.bindPopup(popup_1b6f68459385e861a280aec1925d4a7c)
+        ;
+
+        
+    
+    
+            marker_997286270b66bef6e6878e27102f75cb.bindTooltip(
+                `<div>
+                     Organ Lily
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_466e068f4c258a82af9c74f9b24c8fff = L.marker(
+                [23.75495619, 90.3890392],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+            var icon_fd30548896098e5edfa4f0a9db2de2f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_466e068f4c258a82af9c74f9b24c8fff.setIcon(icon_fd30548896098e5edfa4f0a9db2de2f4);
+        
+    
+        var popup_0b87603fe6588c7c41325be627597a39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_435a396efc20665cc1f9b385f2af35cf = $(`<div id="html_435a396efc20665cc1f9b385f2af35cf" style="width: 100.0%; height: 100.0%;">University of Asia Pacific</div>`)[0];
+                popup_0b87603fe6588c7c41325be627597a39.setContent(html_435a396efc20665cc1f9b385f2af35cf);
+            
+        
+
+        marker_466e068f4c258a82af9c74f9b24c8fff.bindPopup(popup_0b87603fe6588c7c41325be627597a39)
+        ;
+
+        
+    
+    
+            marker_466e068f4c258a82af9c74f9b24c8fff.bindTooltip(
+                `<div>
+                     University of Asia Pacific
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57b53df5ec0a714ee38edd8c413d5d83 = L.marker(
+                [23.7894987935148, 90.37602422433598],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_4d9a74da0c298c1d11ebe3100afc3d56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af6ae13ac75cc70e5fb50fb7d5f89e9e = $(`<div id="html_af6ae13ac75cc70e5fb50fb7d5f89e9e" style="width: 100.0%; height: 100.0%;">Shewrapara</div>`)[0];
+                popup_4d9a74da0c298c1d11ebe3100afc3d56.setContent(html_af6ae13ac75cc70e5fb50fb7d5f89e9e);
+            
+        
+
+        marker_57b53df5ec0a714ee38edd8c413d5d83.bindPopup(popup_4d9a74da0c298c1d11ebe3100afc3d56)
+        ;
+
+        
+    
+    
+            marker_57b53df5ec0a714ee38edd8c413d5d83.bindTooltip(
+                `<div>
+                     Shewrapara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9205b48b924ddd5145eb06c49679d775 = L.marker(
+                [23.77853941, 90.38000406],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_3bb6ce30c21c2b390da380641249ff8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79aab07f738ad5bc504734f238d5ea96 = $(`<div id="html_79aab07f738ad5bc504734f238d5ea96" style="width: 100.0%; height: 100.0%;">Agargaon</div>`)[0];
+                popup_3bb6ce30c21c2b390da380641249ff8b.setContent(html_79aab07f738ad5bc504734f238d5ea96);
+            
+        
+
+        marker_9205b48b924ddd5145eb06c49679d775.bindPopup(popup_3bb6ce30c21c2b390da380641249ff8b)
+        ;
+
+        
+    
+    
+            marker_9205b48b924ddd5145eb06c49679d775.bindTooltip(
+                `<div>
+                     Agargaon
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b9386d38320715acba7e34d0e72e108f = L.marker(
+                [23.76527255, 90.38316153],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_eb53a183df3927dd39895e15c44e542d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e79d456498ceb82af9a2aa271463264 = $(`<div id="html_6e79d456498ceb82af9a2aa271463264" style="width: 100.0%; height: 100.0%;">Chandrima Uddan</div>`)[0];
+                popup_eb53a183df3927dd39895e15c44e542d.setContent(html_6e79d456498ceb82af9a2aa271463264);
+            
+        
+
+        marker_b9386d38320715acba7e34d0e72e108f.bindPopup(popup_eb53a183df3927dd39895e15c44e542d)
+        ;
+
+        
+    
+    
+            marker_b9386d38320715acba7e34d0e72e108f.bindTooltip(
+                `<div>
+                     Chandrima Uddan
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_263e1cbd9fc0c2ca9e4ded8eaaa50d9e = L.marker(
+                [23.75896726, 90.38392505],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_2b93a73cbef3aca1eab109e2eab2960c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10c8c617ec6c941fc82ed2566842f861 = $(`<div id="html_10c8c617ec6c941fc82ed2566842f861" style="width: 100.0%; height: 100.0%;">Khamar Bari</div>`)[0];
+                popup_2b93a73cbef3aca1eab109e2eab2960c.setContent(html_10c8c617ec6c941fc82ed2566842f861);
+            
+        
+
+        marker_263e1cbd9fc0c2ca9e4ded8eaaa50d9e.bindPopup(popup_2b93a73cbef3aca1eab109e2eab2960c)
+        ;
+
+        
+    
+    
+            marker_263e1cbd9fc0c2ca9e4ded8eaaa50d9e.bindTooltip(
+                `<div>
+                     Khamar Bari
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cfa2f879d4095ef1343dfb03cdc56a93 = L.marker(
+                [23.76436995, 90.38890505],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_889c888763273eac4ef42c81121b4d2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ba478ee73430402f1f30ee0eeb6c8ec = $(`<div id="html_9ba478ee73430402f1f30ee0eeb6c8ec" style="width: 100.0%; height: 100.0%;">Bijoy Sarani</div>`)[0];
+                popup_889c888763273eac4ef42c81121b4d2a.setContent(html_9ba478ee73430402f1f30ee0eeb6c8ec);
+            
+        
+
+        marker_cfa2f879d4095ef1343dfb03cdc56a93.bindPopup(popup_889c888763273eac4ef42c81121b4d2a)
+        ;
+
+        
+    
+    
+            marker_cfa2f879d4095ef1343dfb03cdc56a93.bindTooltip(
+                `<div>
+                     Bijoy Sarani
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_996bd3b726d7fae2700cdd81a9c6f520 = L.marker(
+                [23.7576877, 90.39017607],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_cefc26ce8cfbcce5f13e862f3942f721 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1033017114d653a107e7636e0e15cf2 = $(`<div id="html_f1033017114d653a107e7636e0e15cf2" style="width: 100.0%; height: 100.0%;">Farmgate</div>`)[0];
+                popup_cefc26ce8cfbcce5f13e862f3942f721.setContent(html_f1033017114d653a107e7636e0e15cf2);
+            
+        
+
+        marker_996bd3b726d7fae2700cdd81a9c6f520.bindPopup(popup_cefc26ce8cfbcce5f13e862f3942f721)
+        ;
+
+        
+    
+    
+            marker_996bd3b726d7fae2700cdd81a9c6f520.bindTooltip(
+                `<div>
+                     Farmgate
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd41afdf4baa9fae4174468f2d0414b6 = L.marker(
+                [23.78676649, 90.36691438],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_3714583a217fb4b20b9442468e6ca17c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3a36487cd195fb1cc9d85ac26d3daa12 = $(`<div id="html_3a36487cd195fb1cc9d85ac26d3daa12" style="width: 100.0%; height: 100.0%;">Kamal Sarani</div>`)[0];
+                popup_3714583a217fb4b20b9442468e6ca17c.setContent(html_3a36487cd195fb1cc9d85ac26d3daa12);
+            
+        
+
+        marker_bd41afdf4baa9fae4174468f2d0414b6.bindPopup(popup_3714583a217fb4b20b9442468e6ca17c)
+        ;
+
+        
+    
+    
+            marker_bd41afdf4baa9fae4174468f2d0414b6.bindTooltip(
+                `<div>
+                     Kamal Sarani
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11506a5de8ccb2a04c551b0607f6b27e = L.marker(
+                [23.77978375, 90.36803178],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_a399768e2004f821b921f4a45c8406bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c02aa22328c11e69ae373f2345b9a5bf = $(`<div id="html_c02aa22328c11e69ae373f2345b9a5bf" style="width: 100.0%; height: 100.0%;">National Museum</div>`)[0];
+                popup_a399768e2004f821b921f4a45c8406bc.setContent(html_c02aa22328c11e69ae373f2345b9a5bf);
+            
+        
+
+        marker_11506a5de8ccb2a04c551b0607f6b27e.bindPopup(popup_a399768e2004f821b921f4a45c8406bc)
+        ;
+
+        
+    
+    
+            marker_11506a5de8ccb2a04c551b0607f6b27e.bindTooltip(
+                `<div>
+                     National Museum
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85d6a4b0d8ca7ac9cb54fffb2b32468e = L.marker(
+                [23.77507395, 90.37406008],
+                {}
+            ).addTo(map_6795b0425bb1890e0e6146a5cabcce43);
+        
+    
+        var popup_1fc05d1246396410598d94aa64de472e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_944f2b93d1c04d974f02c234e3492983 = $(`<div id="html_944f2b93d1c04d974f02c234e3492983" style="width: 100.0%; height: 100.0%;">Sher-e-Bangla Road</div>`)[0];
+                popup_1fc05d1246396410598d94aa64de472e.setContent(html_944f2b93d1c04d974f02c234e3492983);
+            
+        
+
+        marker_85d6a4b0d8ca7ac9cb54fffb2b32468e.bindPopup(popup_1fc05d1246396410598d94aa64de472e)
+        ;
+
+        
+    
+    
+            marker_85d6a4b0d8ca7ac9cb54fffb2b32468e.bindTooltip(
+                `<div>
+                     Sher-e-Bangla Road
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
